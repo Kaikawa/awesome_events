@@ -1,0 +1,15 @@
+/Users/a_kousuke/.rbenv/versions/2.0.0-p247/bin/ruby -r ./siteconf20151106-97957-14wapyr.rb extconf.rb
+creating Makefile
+/Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/ext/libyajl2
+
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+mkdir -p /Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib
+cp libyajl.bundle /Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib/libyajl.bundle
+mkdir -p /Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include/yajl
+cp yajl/*.h /Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include/yajl

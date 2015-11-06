@@ -1,0 +1,15 @@
+/Users/a_kousuke/.rbenv/versions/2.0.0-p247/bin/ruby -r ./siteconf20151106-97957-167yzt0.rb extconf.rb
+-I/Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/include  -O3 -Wno-error=shorten-64-to-32  -pipe
+-L/Users/a_kousuke/conol/rails_projects/awesome_events/vendor/bundler/ruby/2.0.0/gems/libyajl2-1.2.0/lib/libyajl2/vendored-libyajl2/lib -L. -L/Users/a_kousuke/.rbenv/versions/2.0.0-p247/lib  -fstack-protector
+checking for yajl/yajl_tree.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling parser.c
+linking shared-object ffi_yajl/ext/parser.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20151106-97957-3vd41u/ffi_yajl/ext
+installing default parser libraries

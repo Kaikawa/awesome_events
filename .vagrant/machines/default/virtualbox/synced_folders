@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/a_kousuke/conol/rails_projects/awesome_events","disabled":false}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/a_kousuke/conol/rails_projects/awesome_events","disabled":false},"v-csc-f85e05780":{"id":"v-csc-f85e05780","guestpath":"/tmp/vagrant-chef/31b7f72e8e636fac5e28c4ebdebf331f/cookbooks","hostpath":"/Users/a_kousuke/conol/rails_projects/awesome_events/cookbooks","disabled":false}}}
