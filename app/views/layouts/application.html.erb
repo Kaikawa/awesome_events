@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AwesomeEvents</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div>
+	<ul>
+		<li><%= link_to 'イベントを作る', new_event_path %></li>
+		<% if logged_in? %>
+		<li><%= link_to '退会', retire_user_path %></li>
+		<li><%= link_to 'ログアウト', logout_path %></li>
+		<% else %>
+		<li><%= link_to 'Twitterでログイン', 'auth/twitter' %></li>
+		<% end %>
+
+	</ul>
+</div>
+
+<div>
+	<% if flash[:notice] %>
+		<%= flash[:notice] %>
+	<% end %>
+	<% if flash[:alert] %>
+	    <%= flash[:alert] %>
+	<% end %>
+</div>
+
+<%= yield %>
+
+</body>
+</html>
